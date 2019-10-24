@@ -1,0 +1,7 @@
+﻿uploads/
+main.*.js
+polyfills.*.js
+runtime.*.js
+scripts.*.js
+styles.*.css
+app/
