@@ -6,4 +6,5 @@ scripts.*.js
 styles.*.css
 app/
 assets/
+assets/*
 
