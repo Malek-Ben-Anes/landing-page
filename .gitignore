@@ -1,10 +1,9 @@
-﻿uploads/
+﻿./uploads/
 main.*.js
 polyfills.*.js
 runtime.*.js
 scripts.*.js
 styles.*.css
 app/
-assets/
-assets/*
+./assets/
 
