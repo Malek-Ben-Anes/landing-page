@@ -3470,7 +3470,7 @@
 																				<div class="elementor-contact-form-7 jet-elements">
 																					<div role="form" class="wpcf7" id="wpcf7-f123-p63-o1" lang="ar-TN" dir="ltr">
 																						<div class="screen-reader-response"></div>
-																						<form action="mailto:laplume.dor.school@gmail.com"
+																						<form action="/api/emails"
 																						 method="post" class="wpcf7-form" novalidate="novalidate"  enctype="text/plain">
 																							<div style="display: none;">
 																								<input type="hidden" name="_wpcf7" value="123" />
@@ -3479,13 +3479,15 @@
 																								<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f123-p63-o1" />
 																								<input type="hidden" name="_wpcf7_container_post" value="63" />
 																							</div>
-																							<p><span class="wpcf7-form-control-wrap text-109"><input type="text" name="text-109" value=""
-																									 size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required tajawal" aria-required="true"
+																							<p><span class="wpcf7-form-control-wrap text-109">
+																								<input type="text" name="senderName" value=""
+																								     minlength="3" maxlength="30" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required tajawal" aria-required="true"
 																									 aria-invalid="false" placeholder=" الإ سم *" dir="rtl"/></span></p>
-																							<p><span class="wpcf7-form-control-wrap email-684"><input type="email" name="email-684" value=""
-																									 size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email tajawal"
-																									 aria-required="true" aria-invalid="false" placeholder="البريد الإلكتروني *" dir="rtl"/></span></p>
-																							<p><span class="wpcf7-form-control-wrap textarea-249"><textarea name="textarea-249" cols="40"
+																							<p><span class="wpcf7-form-control-wrap email-684"><input type="email" name="email" value=""
+																								class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email tajawal"
+																								aria-required="true" aria-invalid="false" placeholder="البريد الإلكتروني *" dir="rtl"/></span></p>
+																							<p><span class="wpcf7-form-control-wrap textarea-249"><textarea name="message" cols="40"
+																								     maxlength="255" minlength="20"
 																									 rows="10" class="wpcf7-form-control wpcf7-textarea tajawal" aria-invalid="false" placeholder="رسالة"  dir="rtl"></textarea></span></p>
 																							<p class="tajawal"><input type="submit" value="ارسل رسالة" class="wpcf7-form-control wpcf7-submit tajawal" dir="rtl"/></p>
 																							<div class="wpcf7-response-output wpcf7-display-none"></div>
