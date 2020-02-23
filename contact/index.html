@@ -3472,13 +3472,6 @@
 																						<div class="screen-reader-response"></div>
 																						<form action="/api/emails"
 																						 method="post" class="wpcf7-form" novalidate="novalidate"  enctype="application/json">
-																							<div style="display: none;">
-																								<input type="hidden" name="_wpcf7" value="123" />
-																								<input type="hidden" name="_wpcf7_version" value="5.0.1" />
-																								<input type="hidden" name="_wpcf7_locale" value="ar_TN" />
-																								<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f123-p63-o1" />
-																								<input type="hidden" name="_wpcf7_container_post" value="63" />
-																							</div>
 																							<p><span class="wpcf7-form-control-wrap text-109"><input type="text" name="text-109" value=""
 																									 size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required tajawal" aria-required="true"
 																									 minlength="3" maxlength="30"
@@ -3491,6 +3484,10 @@
 																								rows="10" class="wpcf7-form-control wpcf7-textarea tajawal" aria-invalid="false" placeholder="رسالة"  dir="rtl"></textarea></span></p>
 																							<p class="tajawal"><input type="submit" value="ارسل رسالة" class="wpcf7-form-control wpcf7-submit tajawal" dir="rtl"/></p>
 																							<div class="wpcf7-response-output wpcf7-display-none"></div>
+																						</form>
+																						<form target="/api/hello" method="POST">
+																							<input name="hello" type="text"/>
+																							<input name="submit" type="submit"/>
 																						</form>
 																					</div>
 																				</div>
@@ -3744,7 +3741,6 @@
 		var wpcf7 = { "apiSettings": { "root": "http:\/\/ld-wp.template-help.com\/rockthemes\/16854_v1\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" }, "recaptcha": { "messages": { "empty": "Please verify that you are not a robot." } } };
 /* ]]> */
 	</script>
-	<script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts972f.js?ver=5.0.1'></script>
 	<script type='text/javascript'>
 		/* <![CDATA[ */
 		var cherry_subscribe_form_ajax = { "action": "cherry_subscribe_form_ajax", "nonce": "0bba104e64", "type": "POST", "data_type": "json", "is_public": "true", "sys_messages": { "invalid_base_data": "Unable to process the request without nonce or server error", "no_right": "No right for this action", "invalid_nonce": "Stop CHEATING!!!", "access_is_allowed": "Access is allowed", "wait_processing": "Please wait, processing the previous request" } };
